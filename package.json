@@ -1,0 +1,27 @@
+{
+  "name": "electron-is-snap",
+  "version": "1.0.0",
+  "description": "Check if the Electron app is packaged as a Linux snap application",
+  "main": "dist/index.js",
+  "scripts": {},
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "author": "ITW Creative Works",
+  "license": "MIT",
+  "keywords": [
+    "root",
+    "electron",
+    "path",
+    "snap",
+    "linux",
+    "is snap"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeshrvel/npm-electron-is-packaged.git"
+  },
+  "homepage": "https://itwcreativeworks.com",
+  "dependencies": {},
+  "devDependencies": {}
+}

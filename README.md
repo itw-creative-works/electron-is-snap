@@ -22,7 +22,7 @@
   <a href="https://itwcreativeworks.com">Site</a> | <a href="https://www.npmjs.com/package/electron-is-snap">NPM Module</a> | <a href="https://github.com/itw-creative-works/electron-is-snap">GitHub Repo</a>
   <br>
   <br>
-  <strong>Electron is Snap</strong> is an NPM module for Electron developers that helps you check if your project is running as a **Linux Snap** app.
+  <strong>Electron is Snap</strong> is an NPM module for Electron developers that helps you check if your project is running as a <strong>Linux Snap</strong> app.
 </p>
 
 ## Install

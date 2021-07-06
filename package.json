@@ -1,6 +1,6 @@
 {
   "name": "electron-is-snap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check if the Electron app is packaged as a Linux snap application",
   "main": "dist/index.js",
   "scripts": {},

@@ -1,12 +1,29 @@
 {
   "name": "electron-is-snap",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Check if the Electron app is packaged as a Linux snap application",
   "main": "dist/index.js",
-  "scripts": {},
-  "engines": {
-    "node": ">=6.0.0"
+  "scripts": {
+    "prepare": "node -e 'require(`prepare-package`)()'",
+    "prepare:watch": "nodemon -w ./src -e '*' --exec 'npm run prepare'"
   },
+  "preparePackage": {
+    "input": "./src",
+    "output": "./dist",
+    "replace": {}
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
   "author": "ITW Creative Works",
   "license": "MIT",
   "keywords": [
@@ -26,5 +43,7 @@
   },
   "homepage": "https://itwcreativeworks.com",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "prepare-package": "^1.1.6"
+  }
 }

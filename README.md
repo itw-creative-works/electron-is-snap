@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://cdn.itwcreativeworks.com/assets/itw-creative-works/images/logo/itw-creative-works-brandmark-black-x.svg">
+  <a href="https://itwcreativeworks.com">
     <img src="https://cdn.itwcreativeworks.com/assets/itw-creative-works/images/logo/itw-creative-works-brandmark-black-x.svg" width="100px">
   </a>
 </p>
@@ -24,18 +24,18 @@
   <strong>Electron is Snap</strong> is an NPM module for Electron developers that helps you check if your project is running as a <strong>Linux Snap</strong> app.
 </p>
 
-## Install
+## 📦 Install
 Install with npm:
 ```shell
 npm install electron-is-snap
 ```
 
-## Features
+## 🦄 Features
 * Check if your app is running in a **Linux Snap** environment
 * Works in the **main** process and the **renderer** process
 * Should work for non-Electron projects too
 
-## Example Setup
+## ⚡️ Example Setup
 After installing via npm, simply `require` the library and begin enjoying this simple tool 🧰.
 ```js
 // In your main.js or renderer.js file
@@ -43,12 +43,12 @@ const isSnap = require('electron-is-snap').isSnap;
 
 // Output: boolean
 ```
-## Final Words
+## 🗨️ Final Words
 If you are still having difficulty, we would love for you to post a question to [the Electron is Snap issues page](https://github.com/itw-creative-works/electron-is-snap/issues). It is much easier to answer questions that include your code and relevant files! So if you can provide them, we'd be extremely grateful (and more likely to help you find the answer!)
 
 A special thanks to [electron-is-packaged](https://github.com/ganeshrvel/npm-electron-is-packaged) for inspiring **electron-is-snap** and providing a structure for Electron apps checking if they are running in **Snap**.
 
-## Projects Using this Library
+## 📚 Projects Using this Library
 [Somiibo](https://somiibo.com/): A Social Media Bot with an open-source module library. <br>
 [JekyllUp](https://jekyllup.com/): A website devoted to sharing the best Jekyll themes. <br>
 [Slapform](https://slapform.com/): A backend processor for your HTML forms on static sites. <br>
@@ -57,9 +57,7 @@ A special thanks to [electron-is-packaged](https://github.com/ganeshrvel/npm-ele
 [Optiic](https://optiic.dev/): A free OCR image processing API. <br>
 [SoundGrail Music App](https://app.soundgrail.com/): A resource for producers, musicians, and DJs. <br>
 
-Ask us to have your project listed! :)
-
-## Other Great Libraries
+## 📚 Other Great Libraries
 [node-powertools](https://www.npmjs.com/package/node-powertools): An NPM module for backend and frontend developers that exposes powerful utilities and tools. <br>
 [optiic](https://www.npmjs.com/package/optiic): An OCR image processing API. <br>
 [proxifly](https://www.npmjs.com/package/proxifly): An API to find proxies for your apps. <br>
